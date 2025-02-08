@@ -1,0 +1,65 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+}
+
+.titlu{
+  margin:20px 0px 30px 0px;
+  font-size: 2em;
+  text-align: center;
+  font-weight: 800;
+}
+button{
+  background-color: #B0C4DE;
+  margin:6px;
+  border: solid 1px gray;
+  border-radius: 4px;
+  padding: 6px;
+  cursor: pointer;
+  transition-duration: 0.30s;
+  font-size: 24px;
+}
+button:hover{
+  color: limegreen;
+  font-weight: 900;
+  padding: 10px;
+  background-color: #ADD8E6;
+}
+
+.container-button{
+  border:solid 1px black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: max-content;
+  margin:auto;
+}
+.render-zone{
+  margin:30px 20px 10px 20px;
+  border:solid black 1px;
+  border-radius: 4px;
+  min-width: 93%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: space-between;
+  align-items: center;
+  height: 1000px;
+}
+
+a{
+  margin: 4px;
+}
+
+
+/* Ensure the hovered button is fully visible */
+button:not(:hover) {
+  opacity: 0.5;
+}
+
+.button-fisa{
+
+}
